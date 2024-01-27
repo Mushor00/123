@@ -21,13 +21,15 @@ h1{
     align-content: center;
     justify-content: center;
     padding: 44px;
-    background-color: aqua;
+    background-color: #7cf5f5;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 .history{
-    background-color: aqua;
+    background-color: inherit;
 }
 h2{
-    background-color: aqua;
+    background-color: inherit;
     text-align: center;
 }
 
@@ -37,12 +39,14 @@ h3,h4{
 
 }
 .flex-stats{
+    margin-left: 2%;
+    margin-right: 2%;
     margin-top: 16px;
     padding-bottom: 16px;
     display: flex;
     align-content: center;
     justify-content: center;
-    background-color: seagreen;
+    background-color: #6ebd5d;
 }
 .stats{
     width: 600px;
@@ -107,7 +111,7 @@ h3,h4{
 }
 
 .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
+    background-color: #000000;
 }
 
 .text {
@@ -157,4 +161,24 @@ h3,h4{
 
 div#preload {
     display: none;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    position: relative;
+    bottom: 0;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 20px;
+}
+
+
+.footer-text{
+    background-color: inherit;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    padding: 4px;
+    position: inherit;
 }
