@@ -1,23 +1,24 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Rage Italic", serif, bold;
     background-color: #8701cc;
     align-items: center;
     justify-items: center;
-    box-sizing:border-box
+    box-sizing: border-box
 }
 
-img{
+img {
     width: 100%;
 }
 
-h1{
+h1 {
     margin: 4px;
     font-size: 4em;
     font-family: "French Script MT", sans-serif;
 }
-.size{
+
+.size {
     align-content: center;
     justify-content: center;
     padding: 44px;
@@ -25,30 +26,35 @@ h1{
     margin-left: 2%;
     margin-right: 2%;
 }
-.history{
+
+.history {
     background-color: inherit;
 }
-h2{
+
+h2 {
     background-color: inherit;
     text-align: center;
 }
 
-h3,h4{
+h3, h4 {
     text-align: center;
     background-color: inherit;
 
 }
-.flex-stats{
+
+.flex-stats {
     margin-left: 2%;
     margin-right: 2%;
     margin-top: 16px;
+    padding-top: 4px;
     padding-bottom: 16px;
     display: flex;
     align-content: center;
     justify-content: center;
     background-color: #6ebd5d;
 }
-.stats{
+
+.stats {
     width: 600px;
     display: list-item;
     align-content: center;
@@ -57,21 +63,24 @@ h3,h4{
     background-color: inherit;
 }
 
-.flex{
+.header,h1 {
     display: flex;
     align-content: center;
     justify-content: center;
+    background-color: crimson;
+    margin-left: 2%;
+    margin-right: 2%;
 
 }
 
-.float-left{
+.float-left {
     float: left;
     background-color: inherit;
     font-weight: bold;
 
 }
 
-.float-right{
+.float-right {
     float: right;
     background-color: inherit;
     font-weight: bold;
@@ -83,6 +92,7 @@ h3,h4{
     max-width: 1000px;
     position: relative;
     margin: auto;
+    background-color: #000000;
 }
 
 .mySlides {
@@ -151,12 +161,16 @@ h3,h4{
 
 .fade {
     animation-name: fade;
-    animation-duration: 1.5s;
+    animation-duration: 2.5s;
 }
 
 @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
 }
 
 div#preload {
@@ -166,15 +180,14 @@ div#preload {
 .footer {
     background-color: black;
     color: white;
-    position: relative;
+    position: sticky;
     bottom: 0;
     margin-left: 2%;
     margin-right: 2%;
     margin-bottom: 20px;
 }
 
-
-.footer-text{
+.footer-text {
     background-color: inherit;
     text-align: center;
     align-content: center;
