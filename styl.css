@@ -14,6 +14,10 @@ body{
     background-size: 100%;
 }
 
+.radius{
+    border-radius: 16px;
+}
+
 ul {
     background-color: indigo;
     align-content: center;
@@ -152,6 +156,7 @@ h3, h4 {
     margin-top: 16px;
     margin-left: 4%;
     margin-right: 4%;
+    border-radius: 16px;
 }
 
 .tlumaczenie {
@@ -188,6 +193,7 @@ p.h1 {
     position: relative;
     margin: 24px auto auto;
     background-color: #000000;
+    border-radius: 16px;
 }
 
 .mySlides {
@@ -206,7 +212,7 @@ p.h1 {
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
+    border-radius: 0 4px 4px 0;
     user-select: none;
 }
 
@@ -239,6 +245,7 @@ p.h1 {
     padding: 8px 12px;
     position: absolute;
     top: 0;
+    border-radius: 16px 0 0 0;
 }
 
 .dot {
