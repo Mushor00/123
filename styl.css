@@ -2,10 +2,65 @@
     margin: 0;
     padding: 0;
     font-family: "Rage Italic", serif, bold;
-    background-color: #8701cc;
     align-items: center;
     justify-items: center;
-    box-sizing: border-box
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('./zdjecia/Jhin.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+ul {
+    background-color: indigo;
+    align-content: center;
+    justify-content: center;
+    margin-left: 4%;
+    margin-right: 4%;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    width: 92%;
+    height: 28px;
+    border: 1px solid #ffff;
+    display: flex;
+    padding: initial;
+}
+
+li{
+    float: none;
+    text-align:center;
+    display:inline;
+    width: 100%;
+}
+
+a {
+    background-color: inherit;
+    color: white;
+    padding: 20%;
+    overflow: inherit;
+    width: 100%;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: lawngreen;
+    color: black;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-abi {
+    display: flex;
+    justify-content: right;
+    align-items: center;
 }
 
 img {
@@ -23,8 +78,8 @@ h1 {
     justify-content: center;
     padding: 44px;
     background-color: #7cf5f5;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 
 .history {
@@ -36,17 +91,42 @@ h2 {
     text-align: center;
 }
 
+h2.pasive {
+    background-color: inherit;
+    text-align: left;
+    color: gold;
+}
+
+h2.des {
+    background-color: inherit;
+    text-align: right;
+    color: gold;
+    float: right;
+}
+
+h2.desc {
+    background-color: inherit;
+    color: white;
+    text-align: right;
+}
+
+.skils{
+    background-color: #393967;
+    padding-right: 12%;
+    padding-left: 12%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
 h3, h4 {
     text-align: center;
     background-color: inherit;
-
 }
 
 .flex-stats {
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-top: 16px;
-    padding-top: 4px;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-top: 24px;
     padding-bottom: 16px;
     display: flex;
     align-content: center;
@@ -63,14 +143,30 @@ h3, h4 {
     background-color: inherit;
 }
 
-.header,h1 {
+.header, h1 {
     display: flex;
     align-content: center;
     justify-content: center;
     background-color: crimson;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-top: 16px;
+    margin-left: 4%;
+    margin-right: 4%;
+}
 
+.tlumaczenie {
+    background-color: coral;
+    margin-right: 4%;
+    margin-left: 4%;
+    text-align: center;
+    color: white;
+    margin-top: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+p.h1 {
+    background-color: inherit;
+    font-size: 1.1em;
 }
 
 .float-left {
@@ -84,14 +180,12 @@ h3, h4 {
     float: right;
     background-color: inherit;
     font-weight: bold;
-
-
 }
 
 .slideshow-container {
     max-width: 1000px;
-    position: relative;
-    margin: auto;
+    position: revert;
+    margin: 24px auto auto;
     background-color: #000000;
 }
 
@@ -101,8 +195,8 @@ h3, h4 {
 
 .prev, .next {
     cursor: pointer;
-    background-color: deeppink;
-    position: absolute;
+    background-color: #73234b;
+    position: relative;
     top: 50%;
     width: auto;
     margin-top: -22px;
@@ -122,6 +216,7 @@ h3, h4 {
 
 .prev:hover, .next:hover {
     background-color: #000000;
+    color: white;
 }
 
 .text {
@@ -129,7 +224,7 @@ h3, h4 {
     background-color: black;
     font-size: 24px;
     padding: 8px 12px;
-    position: absolute;
+    position: revert;
     bottom: 8px;
     width: 100%;
     text-align: center;
@@ -137,10 +232,11 @@ h3, h4 {
 
 .numbertext {
     color: #f2f2f2;
-    background-color: hotpink;
-    font-size: 12px;
+    background-color: #73234b;
+    text-align: center;
+    font-size: 16px;
     padding: 8px 12px;
-    position: absolute;
+    position: revert;
     top: 0;
 }
 
@@ -173,17 +269,13 @@ h3, h4 {
     }
 }
 
-div#preload {
-    display: none;
-}
-
 .footer {
     background-color: black;
     color: white;
     position: sticky;
     bottom: 0;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
     margin-bottom: 20px;
 }
 

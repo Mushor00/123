@@ -8,10 +8,18 @@
 </head>
 <body>
 
-<div class="header">
+<ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#zdjecia">Zdjęcia</a></li>
+    <li><a href="#stats">Statystyki</a></li>
+    <li><a href="#umiejetnosci">Umiejętności</a></li>
+    <li><a href="#history">Historia</a></li>
+</ul>
+
+<div class="header" id="Jhin">
     <h1>Jhin</h1>
 </div>
-<div class="slideshow-container">
+<div class="slideshow-container" id="zdjecia">
 
     <div class="mySlides fade">
         <div class="numbertext">1 / 8</div>
@@ -78,7 +86,14 @@
     <span class="dot" onclick="currentSlide(8)"></span>
 </div>
 
-<div class="flex-stats">
+<div class="tlumaczenie">
+    <p class="h1">Ta strona powstała ponieważ Jhin jest jedną z moich ulubionych postaci w grze pt. "League of Legends"
+        oraz dlatego, że chciałem poukładać swoją wiedzę na ten temat, gdyby nie zadanie to pewnie zrobiłbym takie coś
+        sam dla siebie.<br>
+        Jhin jest marksmanem (strzelcem, ADC) z zaburzeniem obsesyjno-kompulsyjnym (z ang. OCD) od liczby 4.</p>
+</div>
+
+<div class="flex-stats" id="stats">
 
     <div class="stats">
 
@@ -106,7 +121,132 @@
 
 </div>
 
-<div class="size">
+<div class="skils" id="umiejetnosci">
+    <br>
+    <hr style="border: gold solid 1px">
+    <br>
+    <h2 class="pasive">Szept</h2>
+    <br>
+    <hr style="border: gold solid 1px">
+    <br>
+    <div>
+        <img src="/zdjecia/p.jpg" alt="pasive" style="width: 60px;float: left">
+        <h6 style="color: gold; font-size: inherit; float: left">Śmierć w 4 aktach</h6>
+        <p style="color: white">: Jhin do wykonywania ataków podstawowych potrzebuje amunicji, a jego prędkość ataku nie
+            jest wzmacniana przez premię do prędkości ataku. Pistolet Jhina, Szept, mieści 4 naboje i po wystrzeleniu
+            ostatniego pocisku lub 10 sekundach od ataku lub użycia umiejętności następuje 2,5 sekundowe
+            przeładowanie.</p><br>
+        <p style="color: white">Czwarty wystrzelony pocisk ma 100% szansy na trafienie krytyczne i zadaje celowi
+            dodatkowe obrażenia fizyczne równe 15 / 20 / 25% (poziom 1 / 6 / 11) brakującego zdrowia celu.</p><br>
+        <h6 style="color: gold; font-size: inherit; float: left">Każda chwila ma znaczenie</h6>
+        <p style="color: white">: Trafienia krytyczne Jhina zadają obrażenia zmniejszone o 25%, ale zapewniają mu 10%
+            (+4% za każde 10% premii do prędkości ataku) premii do prędkości ruchu na 2 sekundy.</p><br>
+        <p style="color: white">Dodatkowo obrażenia ataku Jhina są zwiększane o
+            2% / 3% / 4% / 5% / 6% / 7% / 8% / 10% / 12% / 14% / 16% / 18% / 20% / 24% / 28% / 32% / 36% / 40% (+4% za
+            każde 10% szansy na trafienie krytyczne) (+2,5% za każde 10% premii do prędkości ataku).</p>
+        <br>
+        <hr style="border: gold solid 1px">
+        <br>
+        <br>
+
+    </div>
+    <h2 class="pasive">Tańczący Granat</h2>
+    <div class="flex-abi">
+        <h2 class="des">Zasięg:</h2>
+        <h2 class="desc"> 550 </h2> 
+        <h2 class="des">Koszt</h2>
+        <h2 class="desc">: 40 / 45 / 50 / 55 / 60 Many </h2> 
+        <h2 class="des">Czas</h2>
+        <h2 class="desc">: 7 / 6,5 / 6 / 5,5 / 5 sek.</h2>
+    </div>
+    <hr style="border: gold solid 1px">
+    <br>
+    <div>
+        <img src="/zdjecia/q.jpg" alt="pasive" style="width: 60px;float: left">
+        <h6 style="color: gold; font-size: inherit; float: left">Aktywna</h6>
+        <p style="color: white">Jhin zrzuca zbiornikiem w pobliskiego, obranego za cel wroga i zadaje mu obrażenia
+            fizyczne. Następnie zbiornik zaczyna się odbijać od maksymalnie 3 pobliskich wrogich jednostek.</p><br>
+        <p style="color: white">Jeżeli cel Tańczoncego Granatu zginie, to każde następne odbicie zadaje o 35% więcej
+            obrażeń.</p>
+    </div>
+    <br>
+    <hr style="border: gold solid 1px">
+    <br>
+    <br>
+    <h2 class="pasive">Zabójczy Rozkwit</h2>
+    <div class="flex-abi">
+        <h2 class="des">Zasięg:</h2>
+        <h2 class="desc"> 3000 </h2> 
+        <h2 class="des">Koszt:</h2>
+        <h2 class="desc"> 50 / 60 / 70 / 80 / 90 Many </h2> 
+        <h2 class="des">Czas:</h2>
+        <h2 class="desc"> 14 sek.</h2>
+    </div>
+    <hr style="border: gold solid 1px">
+    <br>
+    <div>
+        <img src="/zdjecia/w.jpg" alt="pasive" style="width: 60px;float: left">
+        <h6 style="color: gold; font-size: inherit; float: left">Bierna</h6>
+        <p style="color: white">Wrodzy bohaterowie, którzy otrzymali obrażenia od sojuszniczych bohaterów lub zostali
+            trafieni atakami podstawowymi Jhina albo weszli w pułapkę stworzoną za pomocą Jhin.Ująć WidownięUjąć
+            Widownię, zostają oznaczeni na 4 sekundy.</p><br>
+        <h6 style="color: gold; font-size: inherit; float: left">Aktywna</h6>
+        <p style="color: white">: Jhin po krótkim opóźnieniu wystrzeliwuje pocisk w linii prostej, który zadaje obrażenia fizyczne pierwszemu bohaterowi na swojej drodze. Zabójczy Rozkwit zadaje 75% obrażeń stworom i potworom trafionym po drodze.</p><br>
+        <p style="color: white">Trafienie oznaczonego bohatera Unieruchomienieunieruchamia go, a Jhin zyskuje premię do prędkości ruchu Jhin.Szepttaką jak w przypadku trafień krytycznych.</p>
+    </div>
+    <br>
+    <hr style="border: gold solid 1px">
+    <br>
+    <br>
+    <h2 class="pasive">Ująć Widownię</h2>
+    <div class="flex-abi">
+        <h2 class="des">Zasięg:</h2>
+        <h2 class="desc"> 750 </h2> 
+        <h2 class="des">Koszt:</h2>
+        <h2 class="desc"> 30 / 35 / 40 / 45 / 50 Many </h2> 
+        <h2 class="des">Czas:</h2>
+        <h2 class="desc"> 2 sek.</h2>
+    </div>
+    <hr style="border: gold solid 1px">
+    <br>
+    <div>
+        <img src="/zdjecia/e.jpg" alt="pasive" style="width: 60px;float: left">
+        <h6 style="color: gold; font-size: inherit; float: left">Bierna – Piękna Śmierć</h6>
+        <p style="color: white">: Za każdym razem, gdy atakowany przez Jhina wrogi bohater zginie, to w miejsce jego śmierci aktywuje się Lotosowa Pułapka.</p><br>
+        <p style="color: white">Jhin gromadzi ładunki pułapek co pewnien czas (maksymalnie 2), które są niezależne od Pięknej Śmierci.</p><br>
+        <h6 style="color: gold; font-size: inherit; float: left">Aktywna</h6>
+        <p style="color: white">: Jhin umieszcza Lotosową Pułapkę w miejscu docelowym, która po uzbrojeniu się staje się niewidzialna i trwa maksymalnie 3 minuty. Lotosowa Pułapka zostaje uruchomiona, jeżeli wrogowie na nią nadepną, dając wizję na wszystkich przeciwników znajdujących się wewnątrz na 4 sekundy.</p><br>
+        <p style="color: white">Po uruchomieniu Lotosowa Pułapka Spowolnieniespowalnia o 35% wszystkich znajdujących się w niej wrogów na 2 sekundy, a następnie ekspoloduje, zadając obrażenia magiczne wszystkim pobliskim przeciwnikom. Bohaterowie niedawno trafieni, stwory oraz potwory otrzymują 65% obrażeń.</p>
+    </div>
+    <br>
+    <hr style="border: gold solid 1px">
+    <br>
+    <br>
+    <h2 class="pasive">Kurtyna!</h2>
+    <div class="flex-abi">
+        <h2 class="des">Zasięg:</h2>
+        <h2 class="desc"> 3000 </h2> 
+        <h2 class="des">Koszt:</h2>
+        <h2 class="desc"> 100 Many </h2> 
+        <h2 class="des">Czas:</h2>
+        <h2 class="desc"> 120 / 105 / 90 sek.</h2>
+    </div>
+    <hr style="border: gold solid 1px">
+    <br>
+    <div>
+        <img src="/zdjecia/r.jpg" alt="pasive" style="width: 60px;float: left">
+        <h6 style="color: gold; font-size: inherit; float: left">Piersza aktywacja</h6>
+        <p style="color: white">Jhin składa swoją broń w całość na maksymalnie 10 sekund i celuje w wybranym kierunku oraz ujawnia wszystkie Jhin.Zabójczy Rozkwitoznaczone cele na wielkim obszarze. Następnie zyskuje możliwość czterokrotnego ponownego aktywowania Kurtyny!.</p><br>
+        <h6 style="color: gold; font-size: inherit; float: left">Kolejne aktywacje</h6>
+        <p style="color: white">: Jhin wystrzeliwuje pocisk w linii prostej, który koliduje z pierwszym trafionym wrogim bohaterem i Spowolnieniespowalnia wszystkie trafione wrogie jednostki o 80% na 0,5 sekundy oraz zadaje im obrażenia fizyczne.</p><br>
+        <p style="color: white">Kurtyna! ma zwiększone obrażenia o 2,5% za każdy 1% brakującego zdrowia celu, a czwarty wystrzelony pocisk staje się trafieniem krytycznym i zadaje 200% obrażeń.</p>
+    </div>
+    <br>
+    <hr style="border: gold solid 1px">
+    <br>
+</div>
+
+<div class="size" id="history">
     <h2>Historia</h2>
 
     <p class="history">Jhin jest skrupulatnym, zbrodniczym psychopatą, który wierzy, że mordowanie jest sztuką. Niegdyś
@@ -170,10 +310,6 @@
         dostojnikach, jak również w tajnym podziemiu politycznym Ionii, jednakże jak długo pożądającego uwagi seryjnego
         zabójcę zadowalało będzie pozostawanie w cieniu?</p>
 </div>
-<div class="header">
-
-</div>
-
 
 <div class="footer">
 
@@ -181,19 +317,11 @@
         Zaprojektował Oskar Libert, 1147334, 3 semestr, dzienne
     </p>
     <p class="footer-text">
-        Dlaczego taka strona, ponieważ jest to jedna z moich ulubionych postaci w jednej z gier.
+        Proszę nie zwracać uwagi na kompozycję kolorów, została ona tak skomponowana, ponieważ chciałem sprawdzić różne
+        kolory w WebStormie
     </p>
 
 </div>
-<div id="preload">
-    <img src="/zdjecia/1.jpg" width="1" height="1" alt="Image 01"/>
-    <img src="/zdjecia/2.jpg" width="1" height="1" alt="Image 02"/>
-    <img src="/zdjecia/3.jpg" width="1" height="1" alt="Image 03"/>
-    <img src="/zdjecia/4.jpg" width="1" height="1" alt="Image 04"/>
-    <img src="/zdjecia/5.jpg" width="1" height="1" alt="Image 05"/>
-    <img src="/zdjecia/6.jpg" width="1" height="1" alt="Image 06"/>
-    <img src="/zdjecia/7.jpg" width="1" height="1" alt="Image 07"/>
-    <img src="/zdjecia/8.jpg" width="1" height="1" alt="Image 08"/>
-</div>
+
 </body>
 </html>
