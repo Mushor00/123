@@ -18,6 +18,13 @@ body{
     border-radius: 16px;
 }
 
+.color{
+    background-color: deepskyblue;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding: 24px 0 0 24px;
+}
+
 ul {
     background-color: indigo;
     align-content: center;
@@ -72,6 +79,29 @@ img {
     width: 100%;
 }
 
+table,tr,td{
+    padding: 4px;
+}
+
+.img{
+    width: 5%;
+    vertical-align: top;
+}
+
+.opis-abi{
+    width: 70%;
+    vertical-align: top;
+}
+
+.stats-abi{
+    width: 25%;
+    vertical-align: top;
+}
+
+.stats-abip{
+    width: 95%;
+}
+
 h1 {
     margin: 4px;
     font-size: 4em;
@@ -89,6 +119,8 @@ h1 {
 
 .history {
     background-color: inherit;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
 h2 {
@@ -129,14 +161,14 @@ h3, h4 {
 }
 
 .flex-stats {
-    margin-left: 4%;
-    margin-right: 4%;
     padding-top: 24px;
     padding-bottom: 16px;
     display: flex;
     align-content: center;
     justify-content: center;
     background-color: #6ebd5d;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 
 .stats {
@@ -156,7 +188,6 @@ h3, h4 {
     margin-top: 16px;
     margin-left: 4%;
     margin-right: 4%;
-    border-radius: 16px;
 }
 
 .tlumaczenie {
@@ -165,9 +196,8 @@ h3, h4 {
     margin-left: 4%;
     text-align: center;
     color: white;
-    margin-top: 16px;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 p.h1 {
@@ -191,7 +221,7 @@ p.h1 {
 .slideshow-container {
     max-width: 1000px;
     position: relative;
-    margin: 24px auto auto;
+    margin: 0 auto auto;
     background-color: #000000;
     border-radius: 16px;
 }
@@ -252,7 +282,7 @@ p.h1 {
     cursor: pointer;
     height: 15px;
     width: 15px;
-    margin: 0 2px;
+    margin-bottom: 8px;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
