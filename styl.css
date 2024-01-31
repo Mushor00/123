@@ -19,7 +19,7 @@ body{
 }
 
 .color{
-    background-color: deepskyblue;
+    background-color: #6f0080;
     margin-left: 4%;
     margin-right: 4%;
     padding: 24px 0 0 24px;
@@ -59,8 +59,8 @@ a {
 }
 
 a:hover {
-    background-color: lawngreen;
-    color: black;
+    background-color: #00706d;
+    color: red;
 }
 
 .flex {
@@ -112,9 +112,10 @@ h1 {
     align-content: center;
     justify-content: center;
     padding: 44px;
-    background-color: #7cf5f5;
+    background-color: #0051a4;
     margin-left: 4%;
     margin-right: 4%;
+    color: white;
 }
 
 .history {
@@ -166,9 +167,10 @@ h3, h4 {
     display: flex;
     align-content: center;
     justify-content: center;
-    background-color: #6ebd5d;
+    background-color: #001da2;
     margin-left: 4%;
     margin-right: 4%;
+    color: white;
 }
 
 .stats {
@@ -184,14 +186,15 @@ h3, h4 {
     display: flex;
     align-content: center;
     justify-content: center;
-    background-color: crimson;
+    background-color: #420077;
     margin-top: 16px;
     margin-left: 4%;
     margin-right: 4%;
+    color: white;
 }
 
 .tlumaczenie {
-    background-color: coral;
+    background-color: #9b0053;
     margin-right: 4%;
     margin-left: 4%;
     text-align: center;
